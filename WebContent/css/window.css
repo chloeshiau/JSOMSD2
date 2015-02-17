@@ -1,0 +1,411 @@
+/*css for windows. change background color and other properties like fonts*/
+
+.window, .windowyellow, .windowgreen,  .windowgray, 
+.windowpaymentservice, .label {   
+  	text-align:center;
+  	z-index:24;
+	cursor:pointer;
+	box-shadow: 2px 2px 19px #aaa;
+   -o-box-shadow: 2px 2px 19px #aaa;
+   -webkit-box-shadow: 2px 2px 19px #aaa;
+   -moz-box-shadow: 2px 2px 19px #aaa;
+    
+}
+
+.windowecomdborder, .windowecomdbmdmdata {
+	text-align:center;
+  	z-index:24;
+	cursor:pointer;
+}
+	
+.windowinventory {
+	text-align:center;
+  	z-index:24;
+	box-shadow: 2px 2px 19px #aaa;
+   -o-box-shadow: 2px 2px 19px #aaa;
+   -webkit-box-shadow: 2px 2px 19px #aaa;
+   -moz-box-shadow: 2px 2px 19px #aaa;
+}
+
+
+.window {
+    background-color:white;
+    border:2px solid black;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:80px; 
+    height:80px;
+    line-height: 12px;     
+    vertical-align: middle;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+
+.window:hover {
+    border:1px solid #123456;
+    box-shadow: 2px 2px 19px #444;
+   -o-box-shadow: 2px 2px 19px #444;
+   -webkit-box-shadow: 2px 2px 19px #444;
+   -moz-box-shadow: 2px 2px 19px #fff;
+}
+
+.window a {
+    font-family:helvetica;
+}
+
+.windowyellow {
+    background-color: #ECE8AC;
+    border:2px solid black;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:80px; 
+    height:80px;
+    line-height: 12px;     
+    vertical-align: middle;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+
+.windowyellow:hover {
+    border:1px solid #123456;
+    box-shadow: 2px 2px 19px #444;
+   -o-box-shadow: 2px 2px 19px #444;
+   -webkit-box-shadow: 2px 2px 19px #444;
+   -moz-box-shadow: 2px 2px 19px #fff;
+}
+
+.windowyellow a {
+    font-family:helvetica;
+}
+
+
+.windowgreen {
+    background-color: #B2CEB9;
+    border:2px solid black;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:80px; 
+    height:80px;
+    line-height: 12px;     
+    vertical-align: middle;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+
+.windowgreen:hover {
+    border:1px solid #123456;
+    box-shadow: 2px 2px 19px #444;
+   -o-box-shadow: 2px 2px 19px #444;
+   -webkit-box-shadow: 2px 2px 19px #444;
+   -moz-box-shadow: 2px 2px 19px #fff;
+}
+
+.windowgreen a {
+    font-family:helvetica;
+}
+
+.windowgray {
+    background-color: #A7B0B0;
+    border:2px solid black;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:100px; 
+    height:75px;
+    line-height: 12px;     
+    vertical-align: middle;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowgray:hover {
+    border:1px solid #123456;
+    box-shadow: 2px 2px 19px #444;
+   -o-box-shadow: 2px 2px 19px #444;
+   -webkit-box-shadow: 2px 2px 19px #444;
+   -moz-box-shadow: 2px 2px 19px #fff;
+}
+.windowgray a {
+    font-family:helvetica;
+}
+.windowgray:after {
+  position: absolute;
+  left: 0; 
+  top: 0;
+  left: 10%;
+  height: 100%;
+  background: black;
+  content: "";
+  width: 1px;
+  display: block;
+}
+
+.windowgray:before {
+  position: absolute;
+  left: 0; 
+  top: 0;
+  left: 90%;
+  height: 100%;
+  background: black;
+  content: "";
+  width: 1px;
+  display: block;
+}
+
+.windowinventory {
+    background-color: #B2CEB9;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:132px; 
+    height:132px;
+    line-height: 12px;     
+    vertical-align: middle;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowinventory:hover {
+}
+.windowinventory a {
+    font-family:helvetica;
+}
+
+.windowshopping {
+    background-color: #6E89B1;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:285px; 
+    height:132px;
+    line-height: 8px;     
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+    /* z-index: -1; */
+}
+.windowshopping:hover {
+}
+.windowshopping a {
+    font-family:helvetica;
+}
+
+.windowcheckout {
+    background-color: #6E89B1;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:785px; 
+    height:132px;
+    line-height: 8px;     
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowcheckout:hover {
+}
+.windowcheckout a {
+    font-family:helvetica;
+}
+
+.windowcancelabandon {
+    background-color: #6E89B1;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:197px; 
+    height:132px;
+    line-height: 8px;     
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowcancelabandon:hover {
+}
+.windowcancelabandon a {
+    font-family:helvetica;
+}
+
+
+.windowpricing {
+    background-color: #B2CEB9;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:398px; 
+    height:132px;
+    line-height: 247px;     
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowpricing:hover {
+}
+.windowpricing a {
+    font-family:helvetica;
+}
+
+.windowpaymentservice {
+    background-color: #B2CEB9;
+    border:2px solid black;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;        
+    width:5em; 
+    height:5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:80px; 
+    height:80px;
+    line-height: 12px;     
+    vertical-align: middle;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowpaymentservice:hover {
+    border:1px solid #123456;
+    box-shadow: 2px 2px 19px #444;
+   -o-box-shadow: 2px 2px 19px #444;
+   -webkit-box-shadow: 2px 2px 19px #444;
+   -moz-box-shadow: 2px 2px 19px #fff;
+}
+.windowpaymentservice a {
+    font-family:helvetica;
+}
+
+.windowecomdborder {
+	background: url("cylinder.png" );
+	position: absolute;
+	top:2em;
+	left:7em;
+	width: 120px;
+	height: 100px;
+    line-height: 12px;     
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowecomdborder:hover {
+}
+.windowecomdborder a {
+    font-family:helvetica;
+}
+
+.windowecomdbmdmdata {
+	background: url("cylinder.png" );
+	position: absolute;
+	top:2em;
+	left:7em;
+	width: 120px;
+	height: 100px;
+    line-height: 12px;     
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.15s ease-in;
+    -moz-transition: -moz-box-shadow 0.15s ease-in;
+    -o-transition: -o-box-shadow 0.15s ease-in;
+    transition: box-shadow 0.15s ease-in;
+}
+.windowecomdbmdmdata:hover {
+}
+.windowecomdbmdmdata a {
+    font-family:helvetica;
+}
